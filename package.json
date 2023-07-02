@@ -1,4 +1,6 @@
 {
+  "type": "module",
+  "main": "main.js",
   "dependencies": {
     "three": "^0.154.0"
   },
