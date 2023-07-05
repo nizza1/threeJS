@@ -112,7 +112,7 @@ scene.add(ambientLight);
 
 
 const material = new THREE.MeshStandardMaterial({
-  color: 'white',
+  color: 'aliceblue',
   roughness: 1,
   metalness: 1,
   transparent: true,
@@ -177,7 +177,7 @@ starsGeometry.setAttribute('size', new THREE.Float32BufferAttribute(sizes, 1));
 
 const starsMaterial = new THREE.PointsMaterial({
     color: 'aliceblue',
-    size: 0.05, // Initial size, can be adjusted
+    size: 0.04, // Initial size, can be adjusted
     sizeAttenuation: true,
     transparent: true,
     depthTest: false, // Disable depth testing to prevent occlusion

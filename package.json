@@ -1,6 +1,11 @@
+
 {
   "type": "module",
   "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite preview"
+  },
   "dependencies": {
     "gsap": "^3.12.2",
     "three": "^0.154.0"
